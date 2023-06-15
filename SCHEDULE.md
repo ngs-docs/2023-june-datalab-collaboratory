@@ -15,6 +15,8 @@ Where: **Shields Library 360 (DataLab)**, UC Davis main campus.
 
 Contact: ctbrown@ucdavis.edu, hehouts@ucdavis.edu
 
+All information will be posted to our GitHub repository, [ngs-docs/2023-june-datalab-collaboratory](https://github.com/ngs-docs/2023-june-datalab-collaboratory/), and will be available indefinitely.
+
 ## Introduction and Expectations
 
 This workshop is focused on enabling attendees to improve and expand their existing workflows. All activities are optional but we hope to keep it interesting enough that everyone will attend and participate in the all-hands sessions. But you are also welcome to hide out in a corner and work on your own problems and ask for help periodically!
