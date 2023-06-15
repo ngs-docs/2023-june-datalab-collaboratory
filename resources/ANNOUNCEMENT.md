@@ -4,6 +4,9 @@ tags: summer2023
 
 # Workshop Annc: A data analysis collaboratory
 
+[![hackmd-github-sync-badge](https://hackmd.io/ONG4bcrQSxi2kdR_ADTp2A/badge)](https://hackmd.io/ONG4bcrQSxi2kdR_ADTp2A)
+
+
 When: **June 20th-30th, 2023**, ~9am-5pm each day (except weekends; includes break for lunch).
 Where: **Shields Library 360 (DataLab)**, UC Davis main campus.
 How much: **Free**
