@@ -64,11 +64,17 @@ Concepts that will be discussed:
 * getting your data ready for machine learning and AI
 
 --
+
+<!--
 **Apply by end of day on Wed, May 17th, 2023 for full consideration**
 
 ## [Application link](https://docs.google.com/forms/d/e/1FAIpQLSfmDxtOB7iY_icNP6NJ-WCTCoLNqWkJrKAakd4CpxFbHrywVQ/viewform)
 
 We will confirm receipt of your application by May 17th and give you more information about the workshop then!
+
+-->
+
+### Applications are closed.
 
 ## Funding and support acknowledgement
 
