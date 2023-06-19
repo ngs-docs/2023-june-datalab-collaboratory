@@ -1,8 +1,13 @@
+
+
 [toc]
 
 # DataLab Collaboratory - popups - June 2023
 
-Link: [Main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
+[Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
+
+Edit this document: [![hackmd-github-sync-badge](https://hackmd.io/UecX-udsTkO4u7udQqsUwg/badge)](https://hackmd.io/UecX-udsTkO4u7udQqsUwg)
+or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/POP-UP-TOPICS.md)
 
 ## What are pop-ups?
 
