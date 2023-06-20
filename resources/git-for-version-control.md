@@ -8,7 +8,7 @@ tags: summer2023, collaboratory
 
 [Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
 
-Edit: [![hackmd-github-sync-badge](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ/badge)](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ) or or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/git-for-version-control.md)
+Edit: [![hackmd-github-sync-badge](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ/badge)](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ) or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/git-for-version-control.md)
 
 git (well, version control more generally) is an invaluable tool for safeguarding your work. It gives Titus the heeby jeebies to think about making changes to files without tracking them somehow! And that's what he uses git for!
 
@@ -29,13 +29,13 @@ Combined with github, git is even more powerful, because now you can have backup
 
 ## advice & traps to avoid:
 
-* don't git add all; use .gitignore too
+* don't git add all; and use .gitignore too
 * avoid committing large files! use git status first
 * don't clean up or edit files before adding to version control; clean up _after_ adding to version control!
 
 ## getting started from an existing project:
 * `git init` in top level project directory
-* `git add <filename(s)>` to stage file for commit;
+* `git add <filename(s)>` to stage files for commit;
 * `git commit -m "adding files"` to commit;
 * To push to github:
   * create an empty github project
@@ -69,6 +69,8 @@ more advanced topics to consider:
 
 Introductory:
 * Remote Computing tutorial: [Keeping track of your files with version control](https://ngs-docs.github.io/2021-august-remote-computing/keeping-track-of-your-files-with-version-control.html)
+* Here is the DataLab [guide to using `git`](https://ucdavisdatalab.github.io/workshop_introduction_to_version_control/), and the [guide to using Github](https://ucdavisdatalab.github.io/workshop_git_for_teams/)
+
 
 More advanced:
 * [Using branches and pull requests - GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
