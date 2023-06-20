@@ -6,6 +6,8 @@ tags: summer2023, collaboratory
 
 # DataLab Collaboratory - git & github resources - June 2023
 
+[Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
+
 Edit: [![hackmd-github-sync-badge](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ/badge)](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ) or or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/git-for-version-control.md)
 
 git (well, version control more generally) is an invaluable tool for safeguarding your work. It gives Titus the heeby jeebies to think about making changes to files without tracking them somehow! And that's what he uses git for!
