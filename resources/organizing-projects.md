@@ -2,13 +2,16 @@
 tags: summer2023, collaboratory
 ---
 
+
+
 [toc]
 
 # DataLab Collaboratory - organizing your files - June 2023
 
 [Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
 
-or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/scripts-for-automating.md)
+Edit: 
+[![hackmd-github-sync-badge](https://hackmd.io/cY706EhiQU6Tw9azJ2L1lw/badge)](https://hackmd.io/cY706EhiQU6Tw9azJ2L1lw) or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/organizing-projects.md)
 
 should:
 * have all project-specific files under same top level directory
