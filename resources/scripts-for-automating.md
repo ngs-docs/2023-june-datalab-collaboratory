@@ -8,7 +8,8 @@ tags: summer2023, collaboratory
 
 [Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
 
-Edit: or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/git-for-version-control.md)
+Edit: [![hackmd-github-sync-badge](https://hackmd.io/Vd7gHav9QZ-LGegA5CUE9Q/badge)](https://hackmd.io/Vd7gHav9QZ-LGegA5CUE9Q)
+ or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/resources/git-for-version-control.md)
 
 ## scripts
 
