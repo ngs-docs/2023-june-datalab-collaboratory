@@ -37,6 +37,7 @@ Combined with github, git is even more powerful, because now you can have backup
 * `git init` in top level project directory
 * `git add <filename(s)>` to stage files for commit;
 * `git commit -m "adding files"` to commit;
+* `git branch -M main` - Is this the right spot? -cb
 * To push to github:
   * create an empty github project
   * copy/paste `git remote add ...` and `git push ...` commands onto command line to connect your repositories and push commit from your working repo to github
@@ -62,6 +63,55 @@ more advanced topics to consider:
 ## Session notes
 
 (add notes here, everyone!)
+
+git is the local software on your machine
+
+github is the cloud software and storage (50mb)
+
+A `README` file should include a install scheme (suggesting conda), the repo's aims/goals, and example on how to run the repo
+
+`git status -s` for simplified status output
+
+#### Helpful and fun links
+
+Git explained with cats
+- https://github.com/LeonardoManzella/git-explained-cats
+- https://girliemac.com/blog/2017/12/26/git-purr/
+
+https://github.com/initialcommit-com/git-sim
+
+https://github.com/git-learning-game/oh-my-git
+
+https://github.com/sadanandpai/git-guide
+
+https://github.com/anvaka/map-of-github
+
+#### .gitignore
+
+Can force `.gitignore` files to be committed with `git add -f`
+
+https://github.com/github/gitignore
+
+`ls -d .snakemake >> .gitignore`
+
+`.gitignore` for big datafiles, and sensitive data
+
+The `.gitignore` file is important for a clean `git status` output
+
+#### Titus advice
+
+`echo !!` runs previous cmd
+
+`echo !$` runs the end of the previous cmd
+
+`echo !*` runs previous cmd and more!
+
+`more` is `less` and `less` is `more`
+
+To understand Github licenses better contact scholarly communications at UC Davis
+- https://library.ucdavis.edu/scholarly-communications-program/
+
+`history` command 
 
 ## Documentation and tutorials and other resources
 
