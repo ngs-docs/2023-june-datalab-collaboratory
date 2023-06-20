@@ -33,3 +33,11 @@ may:
 
 
 NOTE: titus tutorial here: [A brief overview of automation and parallelization options in UNIX/on an HPC](https://hackmd.io/E8EgmtZoSe-lou4ZJnpiFw?view)
+
+## Session notes
+
+(add notes here, everyone!)
+
+## Documentation and tutorials and other resources
+
+(add your favorites here!)
