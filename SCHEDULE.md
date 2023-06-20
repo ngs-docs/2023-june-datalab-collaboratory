@@ -1,12 +1,12 @@
 ---
-tags: summer2023
+tags: summer2023, collaboratory
 ---
 
 [toc]
 
 # Collaboratory schedule - DataLab June 2023
 
-[![hackmd-github-sync-badge](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow/badge)](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow) [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/SCHEDULE.md)
+Edit: [![hackmd-github-sync-badge](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow/badge)](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow) or on [![github](https://raw.githubusercontent.com/ngs-docs/2023-june-datalab-collaboratory/main/images/GitHub_Logo.png)](https://github.com/ngs-docs/2023-june-datalab-collaboratory/blob/main/SCHEDULE.md)
 
 
 When: **June 20th-30th, 2023**, ~9am-5pm each day
@@ -42,17 +42,17 @@ Days will start at ~9:15, with lunch from noon-2pm; we will end by 5pm.
 
 ### Tue, June 20th
 
-Morning: welcome & introductions
+9:30am: Morning: welcome & introductions
 
-Lunch: pizza, probably.
+Lunch: pizza!
 
-Afternoon session: pinning your project down with version control (git and github)
+2pm: Afternoon session: [pinning your project down with version control (git and github)](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ?view)
 
 ### Wed, June 21st
 
-Morning session: (ab)using the HPC for fun and profit (slurm, srun, and sbatch)
+9:30am Morning session: (ab)using the HPC for fun and profit (slurm, srun, and sbatch)
 
-Afternoon session: installations that (usually) just work (conda)
+2pm: Afternoon session: installations that (usually) just work (conda)
 
 ### Th, June 22nd
 
@@ -88,6 +88,16 @@ Work day + pop-up topics; schedule TBD
 
 (workshop ends at noon)
 
+## Advice for ongoing work goals!
+
+Throughout this workshop, you may find you have downtime and/or need some sort of short term direction. Here are some ideas for what you can do!
+
+* make a small test or example data set or analysis that is (a) quick to run and (b) uses most of your scripts. This is a good way to make sure that your scripts still work and is really helpful for us in trying to help you!
+* refactor/edit your scripts to run out of a single working directory - without absolute paths, etc. etc.
+* diagram out your workflow!
+* play with technology in a safe environment! hackmd, etc.
+* take a step back and think about what you'd like to try out or achieve while you have lots of expert help around!
+
 ## Topics for pop-ups
 
 Pop-ups are as-needed demos, lessons, and discussions where someone (or someones) lead a short session on some interesting piece of technology or theory.
@@ -108,6 +118,23 @@ Popup topics we anticipate:
 * JupyterLab
 * GitHub Desktop
 * How to post an issue on the repository of a package I’m having trouble with
+* Getting your data ready to apply ML and AI
+
+Please add your own questions and suggestions to this section!
+
+## Background reading
+
+Here are a few papers for encouragement!
+
+[Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745), Wilson et al., 2014.
+
+[Ten simple rules for making research software more robust](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412), by Taschuk and Wilson, 2017.
+
+[Streamlining data-intensive biology with workflow systems](https://academic.oup.com/gigascience/article/10/1/giaa140/6092773), Reiter et al., 2021.
+
+[Principles for data analysis workflows](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770), Stoudt, Vazquez, and Martinez, 2021.
+
+[Perspectives on automated composition of workflows in the life sciences](https://f1000research.com/articles/10-897/v1), Lamprecht et al., 2021.
 
 ## Funding and support acknowledgement
 
