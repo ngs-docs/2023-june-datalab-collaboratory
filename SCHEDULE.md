@@ -15,6 +15,8 @@ Where: **Shields Library 360 (DataLab)**, UC Davis main campus.
 
 Contact: ctbrown@ucdavis.edu, hehouts@ucdavis.edu
 
+Parking suggestion: lots 5/5A are not that far, and you can walk through a small redwood grove!
+
 All information will be posted to our GitHub repository, [ngs-docs/2023-june-datalab-collaboratory](https://github.com/ngs-docs/2023-june-datalab-collaboratory/), and will be available indefinitely.
 
 ## Introduction and Expectations
@@ -33,16 +35,25 @@ Each all-hands session below will follow the same basic format:
 * intro to topic (15 min)
 * Q&A, discussion and comparison (30 min - 1 hour)
 * break out into facilitated co-working groups
+* reconvene at end to coalesce and retrospect; take notes for pop-ups.
 
-We expect to have "pop-up" sessions on additional topics or techniques as desired.
+We expect to have "pop-up" sessions on additional topics or techniques as needed/desired.
 
-Days will start at ~9:15, with lunch from noon-2pm; we will end by 5pm.
+Days will start at ~9:15, with lunch from noon-2pm; we will end before 5pm every day!
 
 ## Schedule of topics by day
 
 ### Tue, June 20th
 
+Setup:
+* make sure you're on wifi and slack!
+
 9:30am: Morning: welcome & introductions
+
+Sticky note exercise/questions: write 3 sticky notes and put them in groups on the back whiteboard!
+* Name + scientific domain
+* Name + computational tools/approach/??
+* Name + goal for workshop (automation, scalability, validation, ???), or "what you want to work on most".
 
 Lunch: pizza!
 
@@ -92,6 +103,7 @@ Work day + pop-up topics; schedule TBD
 
 Throughout this workshop, you may find you have downtime and/or need some sort of short term direction. Here are some ideas for what you can do!
 
+* write a brief markdown document (maybe on hackmd??) describing how to run your project.
 * make a small test or example data set or analysis that is (a) quick to run and (b) uses most of your scripts. This is a good way to make sure that your scripts still work and is really helpful for us in trying to help you!
 * refactor/edit your scripts to run out of a single working directory - without absolute paths, etc. etc.
 * diagram out your workflow!
@@ -102,7 +114,9 @@ Throughout this workshop, you may find you have downtime and/or need some sort o
 
 Pop-ups are as-needed demos, lessons, and discussions where someone (or someones) lead a short session on some interesting piece of technology or theory.
 
-We'll add pop-ups as needed throughout the workshop!
+We'll run pop-ups as needed throughout the workshop!
+
+For technical details on pop-ups, see [the pop-up resources page!](https://hackmd.io/UecX-udsTkO4u7udQqsUwg?view)
 
 Popup topics we anticipate:
 
