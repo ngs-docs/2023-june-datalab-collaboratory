@@ -29,6 +29,30 @@ This is designed to be a super-friendly workshop where you can ask all those que
 
 We're looking forward to seeing you all!
 
+### Facilitators and Helpers!!!
+
+#### Lead facilitators
+- Pamela
+    - data science, R, etc!
+- Hannah
+    - VScode, github desktop(git GUI), R
+- Wes
+  - Statistics and R programming, etc.
+- Sophie
+    - pop gen, workflows
+- Dani
+    - HPC
+
+#### Helpers
+- Mo
+    - ChatGPT and Git Colab, python
+- Nistara
+    - R, some git (command line), emacs
+- Makan
+    - Pop-up leader for AI/ML
+- Colton
+    - workflow, machine learning, multiomics, image processing, benchmarking
+
 ### Daily schedule
 
 Each all-hands session below will follow the same basic format:
@@ -58,6 +82,8 @@ Sticky note exercise/questions: write 3 sticky notes and put them in groups on t
 Lunch: pizza!
 
 2pm: Afternoon session: [pinning your project down with version control (git and github)](https://hackmd.io/M8Ztk4KpT-mYquotj1bOFQ?view)
+
+Need help with `git`, `R`, `python`, or any other data science topics? Check the [directory of Datalab workshops!](https://ucdavisdatalab.github.io/workshop_index/) 
 
 ### Wed, June 21st
 
@@ -120,6 +146,13 @@ For technical details on pop-ups, see [the pop-up resources page!](https://hackm
 
 Popup topics we anticipate:
 
+Audience suggested 
+* Google cloud
+* How to use ChatGPT for fun and profit 
+    * GPT3 is not reliable, but 4 is good
+* Github copilot
+
+Pre-existing ideas
 * hackmd for collaborative Markdowning
 * RStudio Server, VS Code, etc.
 * Screen, tmux
