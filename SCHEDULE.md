@@ -94,7 +94,7 @@ Need help with `git`, `R`, `python`, or any other data science topics? Check the
 9:30am Morning session: [(ab)using the HPC for fun and profit (slurm, srun, and sbatch)](https://hackmd.io/9XoHaRy3RFyoEpSIaGqyBw?view)
 - additional topic: [setting your default editor on Linux](https://hackmd.io/wwMJiUc5REKRS54okRaoJw?view)
 
-2pm: Afternoon session: [installations that (usually) just work (conda)](https://hackmd.io/Qt4AWbDfS5KtbKb-I3jY7Q?view)
+2pm: Afternoon session: [software installations that (usually) just work (conda)](https://hackmd.io/Qt4AWbDfS5KtbKb-I3jY7Q?view)
 
 ### Th, June 22nd - scripting; organization
 
