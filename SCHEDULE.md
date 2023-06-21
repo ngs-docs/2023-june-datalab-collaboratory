@@ -15,7 +15,9 @@ Where: **Shields Library 360 (DataLab)**, UC Davis main campus.
 
 Contact: ctbrown@ucdavis.edu, hehouts@ucdavis.edu
 
-Parking suggestion: lots 5/5A are not that far, and you can walk through a small redwood grove!
+Parking suggestion: lots 5/5A are not that far, and you can walk through a small redwood grove! MU parking structure is also nearby (A and C parking). TAPS enforces parking; day parking permits can be purchased through the ParkMobile app.
+
+Food: DataLab staff have started a list of [quick lunch options on and around campus](https://docs.google.com/spreadsheets/d/1qvRRmImhpSY24YVewW_vT2EWGUaWYorQShQCbc7I_1c/edit?usp=sharing). Note: on campus venues may be closed due to summer break.
 
 All information will be posted to our GitHub repository, [ngs-docs/2023-june-datalab-collaboratory](https://github.com/ngs-docs/2023-june-datalab-collaboratory/), and will be available indefinitely.
 
@@ -33,7 +35,7 @@ We're looking forward to seeing you all!
 
 #### Lead facilitators
 - Pamela
-    - data science, R, etc!
+    - data science, R, team science, etc!
 - Hannah
     - VScode, github desktop(git GUI), R
 - Wes
@@ -52,6 +54,8 @@ We're looking forward to seeing you all!
     - Pop-up leader for AI/ML
 - Colton
     - workflow, machine learning, multiomics, image processing, benchmarking
+- Nick
+    - statistics, R, Python, Julia, etc.
 
 ### Daily schedule
 
@@ -67,10 +71,10 @@ Days will start at ~9:15, with lunch from noon-2pm; we will end before 5pm every
 
 ## Schedule of topics by day
 
-### Tue, June 20th
+### Tue, June 20th - welcome; git
 
 Setup:
-* make sure you're on wifi and slack!
+* make sure you're on wifi (eduroam) and slack (DataLab, #2023-june-collaboratory)!
 
 9:30am: Morning: welcome & introductions
 
@@ -85,19 +89,20 @@ Lunch: pizza!
 
 Need help with `git`, `R`, `python`, or any other data science topics? Check the [directory of Datalab workshops!](https://ucdavisdatalab.github.io/workshop_index/) 
 
-### Wed, June 21st
+### Wed, June 21st - slurm; conda
 
-9:30am Morning session: (ab)using the HPC for fun and profit (slurm, srun, and sbatch)
+9:30am Morning session: [(ab)using the HPC for fun and profit (slurm, srun, and sbatch)](https://hackmd.io/9XoHaRy3RFyoEpSIaGqyBw?view)
+- additional topic: [setting your default editor on Linux](https://hackmd.io/wwMJiUc5REKRS54okRaoJw?view)
 
-2pm: Afternoon session: installations that (usually) just work (conda)
+2pm: Afternoon session: [installations that (usually) just work (conda)](https://hackmd.io/Qt4AWbDfS5KtbKb-I3jY7Q?view)
 
-### Th, June 22nd
+### Th, June 22nd - scripting; organization
 
 Morning session: automating the heck out everything (shell scripts, R, Python)
 
 Afternoon session: dude, where's my file? (organizing your files)
 
-### Fri, June 23rd
+### Fri, June 23rd - snakemake
 
 Morning session: automating stuff even more with workflow systems (snakemake)
 
@@ -151,6 +156,11 @@ Audience suggested
 * How to use ChatGPT for fun and profit 
     * GPT3 is not reliable, but 4 is good
 * Github copilot
+* Github Actions
+* Github codespace
+* Github license
+    * scholarly communications at UC Davis
+* Bash command line variables
 
 Pre-existing ideas
 * hackmd for collaborative Markdowning
