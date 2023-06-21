@@ -28,6 +28,30 @@ Its main features of interest are:
 * write an `environment.yml` file that installs some software! (see appendix for examples)
     * put that environment file in github!
 
+
+## To create an environment named NAME containing python:
+
+(and then activate it to use the software)
+
+```
+conda create -n NAME python
+conda activate NAME
+```
+
+## To create an environment named NAME2 containing dplyr from an environment file:
+
+```
+cat > environment.yml <<EOF
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - r-dplyr
+EOF
+conda env create -n NAME2 -f environment.yml
+```
+
 ## conda environments must:
 * contain all of the necessary software to run your pipeline
 
