@@ -1,7 +1,7 @@
 ---
 tags: summer2023, collaboratory
 ---
-# Editing files on remote computers
+# Editing files on remote computers - setting your default editor
 
 [Go back to main schedule page](https://hackmd.io/KhkZGZhyRt6pu4lbEHi6ow?view)
 
@@ -31,6 +31,20 @@ The first two entries in [this StackOverflow post](https://unix.stackexchange.co
 
 ## Other choices
 
-Hannah really likes [VSCode](https://code.visualstudio.com/), which is a desktop application that runs on Mac and Windows and Linux, and offers directory browsing and ssh functionality for working directly with remote computers!
+Hannah really likes [VSCode](https://code.visualstudio.com/), which is a desktop application that runs on Mac and Windows and Linux, and offers directory browsing and ssh functionality for working directly with remote computers! See her [VSCode tutorial here](https://hackmd.io/r0L9HY0TSFmHqFLE9r6Awg)
 
 Titus teaches using RStudio Server, which [is available on farm](https://hackmd.io/ocS5H5CnTAm_EWugvYF_Mw?view). It's somewhat tricky to get it running, however, because it uses ssh tunneling. On the flip side, once set up, it also provides a full RStudio experience ;).
+
+## Session notes
+
+Farm has `Jed` which is an `emacs` compatible editor
+
+what is the difference `/.profile` and `/.bashrc` files?
+- `.profile` is run in a login shell 
+- `.bashrc` is run anytime a login shell is not used
+
+What is the difference between the `bash` and `source` commands?
+`bash` runs the bash script
+`source` runs a bash script in login shell and retains the environmental commands set up within the script
+
+`Nano` is perfectly good for opening and editing, but searching and editing a large file is difficult. There also is no syntax highlighter in `nano`.
