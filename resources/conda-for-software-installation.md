@@ -65,7 +65,7 @@ conda env create -n NAME2 -f environment.yml
 ## things to discuss:
 * interaction with system installed software and modules:
     * both conda and the module system 
-    * whichever environment you activate last (`conda activate` or `module activate`) will take precedence
+    * whichever environment you activate last (`conda activate` or `module load`) will take precedence
     * to add to the confusion, the module subsystem can load conda environments...
     * 
 * R/Python conda installs
@@ -76,6 +76,55 @@ conda env create -n NAME2 -f environment.yml
 ## Session notes
 
 (add notes here, everyone!)
+
+Q: what are the benefits of the different types of conda? (Anaconda, miniconda, etc.)
+
+Mambaforge is titus' recommendation. Sometimes faster with the `mamba` command replacing `conda`. 
+
+Anaconda comes with conda and a bunch of other things
+
+miniconda is just conda
+
+micromamba is an even faster version of mamba that elimantes the base environment
+
+Q: Are all CRAN packages available in conda?
+
+https://docs.anaconda.com/free/anaconda/reference/packages/r-language-pkg-docs/
+
+Q: naming scheme for env?
+
+`conda env list` list all environments in your conda
+
+environment files attached to a workflow manager are what [Titus'] relies on because they may remove and re-install conda entirely.
+
+Q: How do you create a environment file?
+
+[Titus] just copy an existing, working yml file from another workflow. [Titus] rarely ever writes a new file. 
+
+Sometimes heavily hardware specific software does not work well with conda (kuda?)
+
+`conda list` lists everything in an environment
+
+`conda list` conda lists conda version
+
+Conda packages are not duplicated if installed into multiple environments unless they are different versions. A different version will be an entire new install.
+
+`tmux`/`screen` can become a resource burden at some point but generally the screens are lightweight unless there is something running within it.
+
+Can still use the python installation for conda environment. `pip install`.
+
+Q: when do you add dependencies in your env file?
+
+The main packages of an environment file will download all required dependencies
+
+`conda env export > env.yml` creates an file that contains everything in a conda environment
+
+
+`conda create` command in readme first thing
+
+Create a temp environment that will contain every package that is necessary
+
+Add packages to an env.yml file as you add to the temp env.
 
 ## Documentation and tutorials and other resources
 
