@@ -38,7 +38,7 @@ Scripts can run other scripts! :tada:
 * put your scripts in git & github!
 * put them in a `scripts/` or `bin/` subdirectory
 * make them command-line programs!
-    * annotate your scripts with ``#! /usr/bin/env LANGUAGE` at the top
+    * annotate your scripts with `#! /usr/bin/env LANGUAGE` at the top
     * make them executable with `chmod +x ...`
     * (commit and update your git)
 * change them to be "portable" by location (use relative paths only, or change them to take command-line arguments)
@@ -54,7 +54,7 @@ Scripts can run other scripts! :tada:
 * have `#! program` at top indicating their interpreter, and be executable (`chmod +x scriptname`)
 * be in version control
 * not be something you have to edit by hand to change parameters (but this can be hard!)
-* bash scripts should use `set -x`, `set -e`
+* bash scripts should use `set -x`, `set -e`, and `set -u`
 * not have full paths hardcoded in:
     * use relative paths
     * take in arguments from command line (see examples below)
@@ -81,6 +81,97 @@ Note that you can run sbatch scripts at the command line with `bash scriptname`.
 ## Session notes
 
 (add notes here, everyone!)
+#### Tangential Titus wisdom
+`grep -i <username> /etc/passwd` to verify user accounts have been created
+
+`grep <usergroup> /etc/group` to identify all members of a group
+
+`df -h` see global disk free space 
+
+`du -h -s ~<username>` see the disk usage of a file/directory
+
+Scripting is absurdly complicated and simple at the same time.
+
+Bash is a scripting language. Other shells use other forms of scripting language.
+
+Pretty much every shell runs programs the same way. However, once you start running loops and other workflows the shells begin to diverge.
+
+Q: How does github tell what the script is in a repo?
+> IDK. Most likely it just looks at the end of a file `*.py` or `*.cpp` to tell the language.
+
+No right or wrong for what language I am learning/using.
+
+`bin` == binary. For more info, [here is a stackoverflow discussion.](https://unix.stackexchange.com/questions/28860/why-the-unix-bin-directory-named-in-that-way)
+
+sym link == symbolic links. `ln -s` instead of `cp` (copying) the files into a directory. Identify this by looking at the permission string `lrwxrwsrwx` ([more info here](https://linuxize.com/post/understanding-linux-file-permissions/))
+
+On a cluster, sym links may not work when you work on a node, however your data is stored in the head node. You will need to `cp` the data into a `tmp/` to bypass this. This is for security/storage reasons.
+There are also weird situations were you may not have permissions on accessing disk. Docker(?)
+Back up your data. One file of data that is only sym linked in other directories is brittle and dangerous.
+
+While the sym link conversation revolved around 'data', think about other files that may behoove linking instead of copying. Result files, munged datasets, visualization plots.
+
+Numerical processing and parallelization using scatter-gather. File locking is a bottle-neck to write to a file one at a time.
+
+A descriptive file name can be auto-completed with tab completion. [More information here](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)
+
+Use a small test dataset to verify the script runs the way that you had hoped. This allows for a quick test run that can be smoke-tested. Combine this with version control and you can update and find bugs. If you set up 
+
+[testthat](https://testthat.r-lib.org/) in R allows for continuous integration in Github. If you set this up, upon a `git push` github will automatically run the tests.
+
+
+Q: GNU parallel compared to snakemake?
+> `parallel` is fantastic for simple jobs. ( e.g. a pleasantly parallel example one command across twenty samples)
+>
+> Once you have a dependency diagram, snakemake begins to become better. (i.e. once it becomes a complex task)
+
+Computers know if you are willing to give up at debugging. If you swear that you will debug, the computer will give up. 
+Brutalist approach to debugging. Delete/comment entire sections around error. Use `print()`. vscode does have a built in debugger, but it becomes complicated to use.
+
+```
+$ vi test
+```
+```
+#! /bin/bash
+echo hello world
+```
+
+```
+$ bash test
+hello world
+```
+
+```
+$ chmod +x test
+$ test
+```
+There is no expected result `hello world` because there is a `test` command in bash that is run instead.
+```
+$ ./test
+hello world
+```
+The `./` tells the shell to run `test` in current directory.
+
+<br>
+
+```
+$ cat > example.sh
+Text included here is what is included in the 'example.sh' file.
+# Must press `ctrl + D` to end writting the file in the terminal.
+```
+
+
+<br>
+
+`history | chmod` prints out all the `chmod` commands ran.
+
+Really good practice is to make raw data files read-only. See `chmod` on how to change permissions to a file.
+
+~~`unlink` only works on sym links. If you need to remove a linked file, use `unlink` instead of `rm`.~~
+Perhaps a better solution to `unlink`, would be to create an alias in `~/.bashrc` that only removes links. 
+- [More info on alias here.](https://unix.stackexchange.com/questions/271140/remove-file-but-only-if-its-a-symlink)
+- [Maybe good info here (maybe not)](https://linuxopsys.com/topics/remove-symbolic-links-in-linux)
+
 
 ## Documentation and tutorials and other resources
 
@@ -113,6 +204,8 @@ echo program name is $0
 echo first command line parameter is $1
 echo second command line parameter is $2
 ```
+
+Try with three parameters. Only the first two parameters are returned. Name the file `example.sh` and run `./example.sh a b c`.
 
 Being safe with variables
 ```
