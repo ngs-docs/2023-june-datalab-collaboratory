@@ -4,6 +4,9 @@ tags: collaboratory2023
 
 # Workshop not-accept - Data Analysis Collaboratory 2023 @ DataLab
 
+[![hackmd-github-sync-badge](https://hackmd.io/IyvSNAEAQ8idcDdB8eO4Hw/badge)](https://hackmd.io/IyvSNAEAQ8idcDdB8eO4Hw)
+
+
 Thank you for submitting an application to the Data Analysis Collaboratory (https://hackmd.io/ONG4bcrQSxi2kdR_ADTp2A?view)!
 
 Since this workshop is focused on fine tuning, refactoring, and enlarging an existing and fully functioning computational project, we think it’s too early in your research for this workshop to be directly useful to you. We hope to offer additional workshops that more directly target your needs in the not-too-distant future!
